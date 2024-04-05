@@ -1,0 +1,64 @@
+.InnerNav{
+    background-color: #f3f4f8;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    box-sizing: border-box;
+    font-family: 'poppins';
+    font-size: 14px;
+    align-items: center;
+}
+
+.InnerNavRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.InnerNavRight select{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: rgba(0, 0, 0, 0.468);
+}
+.InnerNavRight select:focus{
+    outline: none;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profilepic{
+    height: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+.innerNavIcon{
+    width: 20px;
+    height: 20px;
+    color: #105f4a;
+}
+
+.profileDetails{
+    font-size: 14px;
+}
+
+.profileDetailsInner{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wallet{
+    color: #105f4a;
+
+}

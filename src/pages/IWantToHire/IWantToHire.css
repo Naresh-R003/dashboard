@@ -1,0 +1,256 @@
+.content{
+    width: 85%;
+    height: 100%;
+}
+
+.IWantToHire{
+    height: 90%;   
+    width: 100%;
+    display: flex;
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+
+.IWantToHireRightHeading{
+    font-weight: 500;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+/* .IWantToHireLeft3CardInnerRightInner{
+    padding-bottom: 20px;
+} */
+.IWantToHireLeft{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 83%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+/* .IWantToHireLeft3CardInner{
+    border-bottom: 1px solid rgb(161, 153, 153);
+} */
+
+.IWantToHireRight{
+    padding: 15px;
+    box-sizing: border-box;
+    width: 17%;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+}
+.pending{
+    border-radius: 4px;
+    background-color: #bec1c9;
+    padding: 4px;
+}
+.clock{
+    position:absolute;
+    margin-left: -13px;
+}
+.IWantToHireLeft3CardInnerRightInner{
+    padding-left: 10px;
+}
+.notificationBar{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.notificationBarIcon{
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100%;
+}
+
+.notificationBarContent1{
+    font-size: 13px;
+}
+.notificationBarContent2{
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.IWantToHireLeft1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.IWantToHireLeft2{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    height: 150px;
+    gap: 15px;
+}
+
+.card{
+    width: 100%;
+    height: 100%;
+    border-radius: 7px;
+    background: rgb(34,193,195);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.card1{
+    background-color: #ebb18c;
+    background-image: linear-gradient(62deg, #ebb18c 0%, #ffffff 100%);
+    }
+.card2{
+    background-color: #eb9ebf;
+    background-image: linear-gradient(62deg, #eb9ebf 0%, #ffffff 100%);
+    
+}
+.card3{
+    background-color: #de9eeb;
+    background-image: linear-gradient(62deg, #de9eeb 0%, #ffffff 100%);
+    
+}
+.card4{
+    background-color: #a59eeb;
+    background-image: linear-gradient(62deg, #a59eeb 0%, #ffffff 100%);
+    
+
+}
+.card5{
+    background-color: #9edaeb;
+    background-image: linear-gradient(62deg, #9edaeb 0%, #ffffff 100%);
+    
+    
+
+}
+.card6{
+    background-color: #9eebb0;
+    background-image: linear-gradient(62deg, #9eebb0 0%, #ffffff 100%);
+    
+    
+}
+.card7{
+    background-color: #ebe49e;
+    background-image: linear-gradient(62deg, #ebe49e 0%, #ffffff 100%);
+    
+
+}
+.card8{
+    background-color: #eb9e9e;
+    background-image: linear-gradient(62deg, #eb9e9e 0%, #ffffff 100%);
+    
+
+}
+.cardIcon{
+    width: 30px;
+    height: 30px;
+}
+
+.cardText1{
+    margin-top: 5px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.cardText2{
+    margin-top: -7px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.IWantToHireLeft3{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    height: 35%;
+    gap: 15px;
+}
+
+.IWantToHireLeft3Card{
+    width: 100%;
+    height: 100%;
+    background-color: #f3f4f8;
+    border-radius: 7px;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.IWantToHireLeft4{
+    width: 100%;
+    height: 35%;
+    background-color: #f3f4f8;
+    border-radius: 7px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.table{
+    width: 100%;
+    border: 1px solid #dadada;
+    border-collapse: collapse;
+}
+
+.table th{
+    border: 1px solid #dadada;
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: #f0f0f0;
+}
+
+.table td{
+    border: 1px solid #dadada; 
+    padding: 7px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.IWantToHireLeft3Card{
+    overflow: hidden;
+}
+
+.IWantToHireLeft3CardHeading{
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.IWantToHireLeft3CardInner{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+.IWantToHireLeft3CardInnerLeft{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.IWantToHireLeft3CardInnerImage{
+    width: 30px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 100%;   
+}
+
+.IWantToHireLeft3CardInnerRight{
+    display: flex;
+    justify-content: space-between;
+}
+
+.IWantToHireLeft3CardInnerRightInner{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 12px;
+}
+td{
+    font-size: 10px;
+}
+
